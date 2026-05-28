@@ -3,6 +3,7 @@ package com.example.budgetbuddyapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.budgetbuddyapp.databinding.ActivityRegisterBinding
@@ -25,6 +26,7 @@ class RegisterActivity : AppCompatActivity() {
         val etPassword = findViewById<EditText>(R.id.etPassword)
         val etConfirmPassword = findViewById<EditText>(R.id.etConfirmPassword)
         val btnRegister = findViewById<MaterialButton>(R.id.btnRegister)
+        val tvLoginRedirect = findViewById<TextView>(R.id.tvLoginRedirect)
 
 
     btnRegister.setOnClickListener {
@@ -71,6 +73,9 @@ class RegisterActivity : AppCompatActivity() {
                 }
                     }
             }
+        }
+        tvLoginRedirect.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }
