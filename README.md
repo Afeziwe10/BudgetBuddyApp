@@ -1,3 +1,4 @@
+<img src="images/icon.png" width="300"/>
 # Budget Buddy App
 
 A modern Android Expense Tracker application built using Kotlin, Firebase Authentication, and Firebase Realtime Database. The application allows users to register, log in securely, and manage their budgeting experience through a clean and attractive user interface.
@@ -15,7 +16,7 @@ A modern Android Expense Tracker application built using Kotlin, Firebase Authen
 * Expense Tracker Layout
 * Responsive User Interface
 
----
+
 
 ## Technologies Used
 
@@ -26,7 +27,7 @@ A modern Android Expense Tracker application built using Kotlin, Firebase Authen
 * XML
 * Material Design Components
 
----
+
 
 ## Firebase Features
 
@@ -46,7 +47,6 @@ Used for storing:
 * Email
 * User Information
 
----
 
 ## Project Structure
 
@@ -75,9 +75,7 @@ BudgetBuddyApp
 │     │     └── activity_dashboard.xml
 │
 └── AndroidManifest.xml
-```
 
----
 
 ## Screenshots
 
@@ -104,9 +102,6 @@ Users
           |
           |-- username
           |-- email
-```
-
----
 
 ## Authentication Flow
 
@@ -120,9 +115,7 @@ Realtime Database
 Login User
       ↓
 Dashboard
-```
 
----
 
 ## Future Improvements
 
@@ -135,7 +128,6 @@ Dashboard
 * Forgot Password Feature
 * Logout Functionality
 
----
 
 ## Author
 
@@ -144,7 +136,6 @@ Afeziwe Thandani
 Software Development Student
 Rosebank College
 
----
 
 ## License
 
