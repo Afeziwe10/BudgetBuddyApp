@@ -82,14 +82,14 @@
         app:backgroundTint="@null"
         android:background="@drawable/button_bg"/>
 
-    <!-- FORGOT PASSWORD -->
+    <!-- Register Redirect -->
     <TextView
-        android:id="@+id/tvForgot"
+        android:id="@+id/tvRegisterRedirect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="18dp"
-        android:text="Forgot Password?"
+        android:text="Don't have an account? Register here"
         android:textColor="#BFC9D9"
         android:textSize="14sp" />
 
