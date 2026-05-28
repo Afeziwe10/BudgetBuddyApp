@@ -2,7 +2,6 @@
 
 A modern Android Expense Tracker application built using Kotlin, Firebase Authentication, and Firebase Realtime Database. The application allows users to register, log in securely, and manage their budgeting experience through a clean and attractive user interface.
 
----
 
 ## Features
 
