@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BudgetBuddyApp">
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".DashboardActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
